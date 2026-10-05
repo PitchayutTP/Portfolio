@@ -49,6 +49,8 @@ export default function Contact() {
           <span className="contact-location">{profile.location} ↗</span>
         </div>
         <div className="contact-profiles">
+          <a href={profile.facebook} target="_blank" rel="noreferrer"><span>FACEBOOK</span>Pitchayut Petchyen ↗</a>
+          <a href={profile.ig} target="_blank" rel="noreferrer"><span>INSTAGRAM</span>tppchy_ ↗</a>
           <a href={profile.phoneHref}><span>PHONE</span>{profile.phone} ↗</a>
           <a href={profile.github} target="_blank" rel="noreferrer"><span>GITHUB</span>PitchayutTP ↗</a>
         </div>

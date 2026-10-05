@@ -1,4 +1,3 @@
-// Decorative project covers; set project.image to display an actual screenshot.
 export default function ProjectVisual({ project }) {
   if (project.image) {
     return (
